@@ -18,7 +18,7 @@ qfil.getJsonDataFromFile('siteData.json', (siteData) => {
         res.render('info',
             {
                 ...siteData,
-                message: "Welcome to info page."
+                message: "Welcome probe."
             });
     });
     app.get('/', (req, res) => {
